@@ -1,5 +1,6 @@
 /**
- * Created by Станислав on 11.03.2018.
+ * Created by Станислав on 12.03.2018.
  */
-public class Example {
+public interface Example {
+    public String questions(int numticket);
 }

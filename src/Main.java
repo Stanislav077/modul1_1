@@ -11,7 +11,8 @@ public class Main {
         user.setFirstname(in.next());
         System.out.println("Введите свою фамилию");
         user.setLastname(in.next());
-
+        System.out.println("Тяните билет");
+        user.choseTicket(in.nextInt());
 
 
     }
