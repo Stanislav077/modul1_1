@@ -12,6 +12,7 @@ public class Main {
         System.out.println("Введите свою фамилию");
         user.setLastname(in.next());
         System.out.println("Тяните билет (от 1-3)");
+
         int chose = user.choseTicket(in.nextInt());
          teacher.questions(chose);
         int bal = teacher.getAverageScore();
